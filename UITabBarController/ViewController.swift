@@ -6,13 +6,15 @@
 //
 
 import UIKit
-import MessageUI
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        self.title = "FirstVC"
+        self.view.backgroundColor = UIColor.green
     }
 
 
